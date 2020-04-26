@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Advocacy Website</title>
+    <link>https://manguilar22.github.io/posts/</link>
+    <description>Recent content in Posts on Advocacy Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 Apr 2020 15:13:31 -0600</lastBuildDate>
+    
+	<atom:link href="https://manguilar22.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Page One</title>
+      <link>https://manguilar22.github.io/posts/page-one/</link>
+      <pubDate>Sun, 26 Apr 2020 15:13:31 -0600</pubDate>
+      
+      <guid>https://manguilar22.github.io/posts/page-one/</guid>
+      <description>Post - one This is still post one </description>
+    </item>
+    
+  </channel>
+</rss>
