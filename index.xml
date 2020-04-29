@@ -26,7 +26,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://manguilar22.github.io/docs/infographic/</guid>
-      <description>Top Super Powers in computing. This section will highilght the most powerful nations in computing. All these visualizations were done in the wolfram language. The visualizations hope to achieve a visual comprehension to the issue.  This demonstrates the heat dissipation created by a CPU. A CPU is responsible for carrying out all computations and therefore creates heat. We can see in this picture the heat produced covers almost the entire board.</description>
+      <description>Top Super Powers in computing. This section will highlight the most powerful nations in computing. All these visualizations were done in the Wolfram Language. The visualizations hope to achieve a visual comprehension of the issue.  This image demonstrates the heat dissipation created by a CPU. A CPU is responsible for carrying out all computations and therefore creates heat. We can see in this picture the heat produced covers almost the entire board.</description>
     </item>
     
     <item>
@@ -50,12 +50,12 @@ Introduction The topic of focus is cloud computing, hoping to explore more about
     </item>
     
     <item>
-      <title>Page One</title>
-      <link>https://manguilar22.github.io/posts/page-one/</link>
+      <title>References</title>
+      <link>https://manguilar22.github.io/posts/references/</link>
       <pubDate>Sun, 26 Apr 2020 15:13:31 -0600</pubDate>
       
-      <guid>https://manguilar22.github.io/posts/page-one/</guid>
-      <description>Post - one This is still post one This is a post This another post </description>
+      <guid>https://manguilar22.github.io/posts/references/</guid>
+      <description>Critically Annotated Bibliography Alnahdi, A., &amp;amp; Bazarah, F. (2018). Building Quality Metrics for Green Computing Projects: A Model and a Case Study of Engineering a Green Computing Awareness Website. 2018 14th International Conference on Signal-Image Technology &amp;amp; Internet-Based Systems (SITIS), Signal-Image Technology &amp;amp; Internet-Based Systems (SITIS), 2018 14th International Conference on, SITIS, 595–600. https://doi.org/10.1109/SITIS.2018.00096  Summary ...  Green computing projects can improve sustainability of computing resources. As there can be several methodologies for developing green computing projects, assessing the quality of these projects can help in determining the feasibility of a project to a particular application.</description>
     </item>
     
   </channel>
