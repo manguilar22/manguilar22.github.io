@@ -1,73 +1,94 @@
-baseurl      = "localhost"
-title        = "Blog"
-languageCode = "en-us"
-theme        = "hugo-PaperMod"
-paginate     = 10
+baseURL = "/"
+title = "Manuel Aguilar"
+paginate = 5
+theme = [ "hugo-PaperMod" ]
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+mainsections = [ "posts", "papermod" ]
+
+[minify]
+disableXML = true
+
+[languages.en]
+languageName = "English"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "blockchain"
+url = "blockchain/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "bioinformatics"
+url = "bioinformatics/"
+weight = 10
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
 
 [params]
-dateform        = "Jan 2, 2006"
-dateformShort   = "Jan 2"
-dateformNum     = "2006-01-02"
-dateformNumTime = "2006-01-02 15:04"
+env = "production"
+description = "portfolio website"
+author = "Manuel Aguilar"
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowToc = true
+images = [ "images/papermod-cover.png" ]
 
-# Subtitle for home
-homeSubtitle = "Portfolio and interests in computing."
+[params.profileMode]
+enabled = false
+title = "PaperMod"
+imageUrl = "#"
+imageTitle = "my image"
 
-# Set disableReadOtherPosts to true in order to hide the links to other posts.
-disableReadOtherPosts = false
+[[params.profileMode.buttons]]
+name = "Archives"
+url = "archives"
 
-# Enable sharing buttons, if you like
-enableSharingButtons = true
+[[params.profileMode.buttons]]
+name = "Tags"
+url = "tags"
 
-# Show a global language switcher in the navigation bar
-enableGlobalLanguageMenu = true
+[params.homeInfoParams]
+Title = "Research blog."
+Content = """
+Showcasing my interests in computing.
+"""
 
-# Metadata mostly used in document's head
-description = "My new homepage or blog"
-keywords = "homepage, blog"
-images = [""]
-
-[taxonomies]
-category = "blog"
-tag      = "tags"
-series   = "series"
-
-
-[languages]
-[languages.en]
-title = "Manuel Aguilar"
-keywords = ""
-copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-readOtherPosts = "Read other posts"
-
-[languages.en.params]
-subtitle  = "Work"
-
-[languages.en.params.logo]
-logoText = "Hello"
-logoHomeLink = "/"
-
-# or
-#
-# path = "/img/your-example-logo.svg"
-# alt = "Your example logo alt text"
-
-[[params.social]]
+[[params.socialIcons]]
 name = "github"
-url  = "https://github.com/manguilar22"
+title = "Github Profile"
+url = "https://github.com/manguilar22"
 
-[[params.social]]
+[[params.socialIcons]]
 name = "linkedin"
-url  = "https://www.linkedin.com/in/manuel-aguilar-860118190"
+title = "Linkedin Profile"
+url = "https://www.linkedin.com/in/manuel-aguilar-860118190"
 
-# And you can even create generic menu
-[menu]
-[[menu.main]]
-identifier = "bioinformatics"
-name       = "Bioinformatics"
-url        = "bioinformatics/"
+[params.assets]
+disableHLJS = true
 
-[[menu.main]]
-identifier = "blockchain"
-name       = "Blockchain"
-url        = "blockchain/"
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
+[services.instagram]
+disableInlineCSS = false
+
+[services.twitter]
+disableInlineCSS = false

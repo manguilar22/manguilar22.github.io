@@ -1,8 +1,7 @@
 +++
 title = "Bioinformatics"
 date = 2023-12-26T20:39:07-06:00
-[ author ]
-  name = "Hugo Authors"
+name = "Manuel Aguilar"
 +++
 
 Contributed to a bioinformatics team at the university as part of undergraduate research.
