@@ -43,10 +43,6 @@ Utilized the [HubMap Consortium portal](https://portal.hubmapconsortium.org/) to
 Utilizing an NCATS [repository](https://github.com/ncats/neo4covid19), established a Neo4j database housing COVID-19 data, specifically focusing on protein-to-protein interactions involving pathogens and host proteins.
 Integrated new drug samples akin to existing data from NCATS, linking them to the pathogen protein. Computed similarity in SMILES using the Tanimoto coefficient.
 
-
-
-
-
 | Starting Graph                               | Introduced Drugs                                                                       | Computed Graph                                                    |
 |----------------------------------------------|----------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | ![neo4covid-graph.png](/neo4covid-graph.png) | ![neo4covid-neo4covid-no-connect-graph.png](/neo4covid-neo4covid-no-connect-graph.png) | ![neo4covid-neo4covid-graph.png](/neo4covid-neo4covid-graph.png)  |
@@ -66,3 +62,5 @@ Researching novel computing methods for the advancement of computing techniques 
 A [dash application](https://github.com/manguilar22/langchain-dash-app) to conversate with Chat-GPT on gene and protein entries from the [Uniprot](https://www.uniprot.org/) knowledge base.
 Context is given to Chat-GPT using a Retreival Augmented Generation (RAG) to enhance responses by providing context beforehand.
 Redis is used as the main database and computing platform for aggregated data retrieved through a REST-API.   
+
+![uniprot-demo.gif](/uniprot-demo.gif)

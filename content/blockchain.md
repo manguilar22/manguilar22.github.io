@@ -24,14 +24,15 @@ Created a 3 node private Ethereum network using proof-of-work (PoW) consensus al
 
 ![GravityEmbedding_full_pow.png](/GravityEmbedding_full_pow.png)
 
-Traced the winning miner of a block using Ethereum's JSON-RPC methods.
+Traced the winning miner of a block using Ethereum's JSON-RPC methods. An exercise for blockchain analytics.
 
 ![private-pow-network](/private-pow-network.gif)
 
-I am interested in analyzing on-chain data within blockchain ecosystems, particularly in investigating blockchain performance data.
+I am interested in analyzing on-chain data within blockchain ecosystems, particularly in investigating blockchain performance data and tracking assets.
 
 ### EVM Smart Contract Development
   
 Proficient in developing token contracts by implementing various interfaces such as ERC-20, ERC-721, and ERC-1155.
 Utilizing the Solidity programming language to interact with deployed contracts across EVM-compatible networks.
+
 ![badges.png](/badges.png)

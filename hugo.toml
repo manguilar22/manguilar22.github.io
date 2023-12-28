@@ -1,7 +1,7 @@
 baseurl      = "localhost"
-title        = "My Blog"
+title        = "Blog"
 languageCode = "en-us"
-theme        = "hello-friend-ng"
+theme        = "hugo-PaperMod"
 paginate     = 10
 
 [params]
