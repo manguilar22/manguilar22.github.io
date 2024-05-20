@@ -58,8 +58,11 @@ Researching novel computing methods for the advancement of computing techniques 
 
 #### Project: Chat-GPT conversational agent for UniProt 
 
-A [dash application](https://github.com/manguilar22/langchain-dash-app) to conversate with Chat-GPT on gene and protein entries from the [Uniprot](https://www.uniprot.org/) knowledge base.
+A [dash application](https://github.com/manguilar22/langchain-dash-app) to converse with Chat-GPT on gene and protein entries from the [Uniprot](https://www.uniprot.org/) knowledge base.
 Context is given to Chat-GPT using a Retreival Augmented Generation (RAG) to enhance responses by providing context beforehand.
 Redis is used as the main database and computing platform for aggregated data retrieved through a REST-API.   
 
 ![uniprot-demo.gif](/uniprot-demo.gif)
+
+I presented the application in a Plotly webinar, demonstrating how to build dash applications using LLM integration and LangChain.
+The recording is on [Youtube](https://youtu.be/sVHfc27BlSE?feature=shared&t=1519) explaining the purpose and thought process of creating the application.
